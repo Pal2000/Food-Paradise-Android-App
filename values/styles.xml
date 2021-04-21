@@ -1,0 +1,21 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FD4B5A</item>
+        <item name="colorPrimaryDark">#FB4B59</item>
+        <item name="colorAccent">#FA293A</item>
+    </style>
+    <style name="spinner_style" parent="AppTheme">
+        <item name="android:dropDownListViewStyle">@style/SpinnerStyle</item>
+    </style>
+    <style name="SpinnerStyle" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:divider">#787777</item>
+        <item name="android:dividerHeight">0.5dp</item>
+    </style>
+<!--    <style name="NewFontStyle" parent="android:Widget.TextView">-->
+<!--        <item name="android:fontFamily">Comfortaa.ttf</item>-->
+<!--    </style>-->
+
+
+</resources>

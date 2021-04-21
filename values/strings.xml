@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Food Paradise</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="privacyinfo">Food Paradise Private Limited(Formerly known as Food Paradise
+        Media Private Limited) and/or its affiliates respect your privacy and is committed to
+        protecting it through its compliance with its privacy policies. This policy describes: the
+        types of information that Food Paradise may collect from you when you access or use its websites,
+        applications and other online services (collectively, referred as Services); and its practices for
+        collecting, using, maintaining, protecting and disclosing that information.Your data controller is
+        responsible for the collection, use, disclosure, retention, and protection of your personal information
+        in accordance with its privacy standards as well as any applicable national laws. Your data controller may
+        transfer data to other members of Food Paradise as described in this Privacy Policy. Food Paradise may process
+        and retain your personal information on its servers in India where its data centers are located, and/or on the servers
+        of its third parties (in or outside India), having contractual relationships with Food Paradise. This policy may change
+        from time to time, your continued use of Food Paradise\'s Services after it makes any change is deemed to be acceptance
+        of those changes, so please check the policy periodically for updates.</string>
+    <string name="aboutinfo">It’s been called a “truly grand restaurant” and “a work of
+        art in its own right,” a restaurant “on the forefront of the Paradise cuisine revolution”
+        where “true culinary artistry is a constant.”For more than 40 years The Food Paradise Restaurant
+        has been all that, putting Kansas City on the nation’s culinary map and introducing local fine dining
+        fans to some of the country’s most celebrated chefs. That, The Paradise most certainly has been, and
+        continues to be. The Paradise continues to be that place. The spectacular setting and view remain. Guest
+        chefs still share their culinary gifts in one-time-only events. Fundraising galas still support worthy causes.
+        Private wedding receptions, retirement parties and family reunions continue, and the public is welcomed for holiday
+        celebrations. Once again, Adele Hall said it best.</string>
+
+</resources>
