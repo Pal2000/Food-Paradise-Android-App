@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         emailaddd=findViewById(R.id.uid);
         password=findViewById(R.id.password);
-        cb=findViewById(R.id.checkBoxRememberMe);
+      //  cb=findViewById(R.id.checkBoxRememberMe);
         sp=getSharedPreferences(sharedprefilename, Context.MODE_PRIVATE);
         Toolbar toolbar= findViewById(R.id.nav_toolbar);
         setSupportActionBar(toolbar);
@@ -126,17 +126,17 @@ public class MainActivity extends AppCompatActivity {
         ed.putString(Pwd, pass);
         ed.commit();
     }
-
-    public void clear(View v){
-
-        emailaddd.setText("");
-        password.setText("");
-        SharedPreferences.Editor editor = sp.edit();
-        editor.clear();
-        editor.apply();
-
-
-    }
+//
+//    public void clear(View v){
+//
+//        emailaddd.setText("");
+//        password.setText("");
+//        SharedPreferences.Editor editor = sp.edit();
+//        editor.clear();
+//        editor.apply();
+//
+//
+//    }
 
     private boolean isEmailValid(String email) {
         return email.contains("@");
@@ -154,3 +154,27 @@ public class MainActivity extends AppCompatActivity {
 
 /** Improve some things ***
  Proper validations and Forget Password and Remeber Me should work properly ***/
+
+/*
+<CheckBox
+            android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Remember Me"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/checkBoxRememberMe"/>
+<Button
+            android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="180dp"
+                    android:padding="10dp"
+                    android:textColor="#FF3D00"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:text="Forget Password?"
+                    android:textStyle="bold"
+                    android:id="@+id/reset"
+                    android:onClick="clear"
+                    />
+*/
