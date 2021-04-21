@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF3F03"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:id="@+id/t1"
+        android:textStyle="bold"
+        android:layout_margin="30dp"
+        android:text="Privacy" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/privacyinfo"
+        android:layout_marginTop="120dp"
+        android:id="@+id/t2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="13dp"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"/>
+
+</FrameLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feedback"
+        android:textSize="45dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/head"
+        android:layout_marginTop="20dp"
+        android:textColor="#FB3E03"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:hint="Name"
+        android:background="@drawable/edit_text_background"
+        android:textSize="17dp"
+        android:id="@+id/name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:hint="Email"
+        android:id="@+id/email"
+        android:background="@drawable/edit_text_background"
+        android:textSize="17dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="270dp"
+        android:hint="Feedback Message..."
+        android:id="@+id/feed"
+        android:background="@drawable/edit_text_background"
+        android:textSize="17dp"
+        android:layout_marginLeft="20dp"
+        android:maxLines="100"
+        android:maxHeight="100dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Would you like an Email response?"
+        android:layout_marginTop="400dp"
+        android:textSize="15dp"
+        android:id="@+id/cb"
+        android:layout_marginLeft="20dp"
+        android:padding="15dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="30dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_background"
+        android:padding="10dp"
+        android:id="@+id/btn"/>
+
+
+
+</FrameLayout>
